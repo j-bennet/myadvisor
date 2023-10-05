@@ -1,0 +1,20 @@
+[project]
+name = "myadvisor"
+version = "0.0.5"
+authors = [{name = "Irina Truong", email = "i.chernyavska@gmail.com"}]
+description = "Gives useful advice"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.scripts]
+myadvisor = "myadvisor.main:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
